@@ -155,6 +155,27 @@ footer {
   fill: currentColor;
   height: 16px;
 }
+
+/* Animation */
+.link .current {
+  position: relative;
+}
+.link .current:before {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 49px;
+  height: 48px;
+  left: 453px;
+  top: 32px;
+  background: var(--accent-color);
+  transition: width 0.3s ease-in-out;
+
+  border-radius: 2px;
+}
+.link .current:hover:before {
+  width: 40%;
+}
 /* .icons-contacts::before {
   content: "";
   display: inline-block;
