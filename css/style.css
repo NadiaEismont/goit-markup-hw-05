@@ -157,23 +157,22 @@ footer {
 }
 
 /* Animation */
-.link .current {
+.current {
   position: relative;
 }
-.link .current:before {
+.current:after {
   display: block;
   position: absolute;
   content: "";
-  width: 49px;
-  height: 48px;
-  left: 453px;
-  top: 32px;
+  width: 100%;
+  height: 4px;
+  bottom: 0;
   background: var(--accent-color);
   transition: width 0.3s ease-in-out;
 
   border-radius: 2px;
 }
-.link .current:hover:before {
+.current:hover:after {
   width: 40%;
 }
 /* .icons-contacts::before {
