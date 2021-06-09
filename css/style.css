@@ -199,7 +199,7 @@ footer {
   width: 100%;
   height: 100%;
 }
-.backdrop.is-hidden {
+.backdrop .is-hidden {
   opacity: 0;
   pointer-events: none;
 }
@@ -208,6 +208,11 @@ footer {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  min-height: 300px;
+  min-width: 400px;
+  padding: 15px;
+  background-color: (var(--white));
 }
 
 /* .icons-contacts::before {
