@@ -178,6 +178,7 @@ footer {
   transition: width 0.3s ease-in-out;
   margin-top: 28px;
   border-radius: 2px;
+  /* transform: translateY(28px); */
 }
 .current:hover::after,
 .current:focus::after {
