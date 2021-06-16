@@ -233,7 +233,7 @@ footer {
     transform: scale(1);
   }
 }
-.is-hidden {
+.backdrop.is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
